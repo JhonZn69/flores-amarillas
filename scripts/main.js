@@ -57,6 +57,8 @@ document.body.appendChild(scrollFlower);
 
 let flowerVisible = false;
 
+/*
+// Comentamos el listener para que la flor nunca aparezca
 window.addEventListener('scroll', () => {
   if (window.scrollY > 50) {
     if (!flowerVisible) {
@@ -70,3 +72,4 @@ window.addEventListener('scroll', () => {
     }
   }
 });
+*/
